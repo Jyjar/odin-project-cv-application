@@ -1,0 +1,19 @@
+.label-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.label-input > label {
+    font-weight: bold;
+}
+
+.label-input > input {
+    background-color: rgb(243, 244, 246);
+    border: 0px;
+    border-radius: 4px;
+    height: 2rem;
+    width: 100%;
+    font-size: 15px;
+}
+

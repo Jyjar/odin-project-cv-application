@@ -1,0 +1,23 @@
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.add-experience-container {
+    display: flex;
+    justify-content: end;
+}
+
+.label-input > textarea {
+    background-color: rgb(243, 244, 246);
+    border: 0px;
+    border-radius: 4px;
+    height: 2rem;
+    width: 100%;
+    font-size: 15px;
+    height: 100px;
+}
+
+/* A lot of the css is inhereted from Education.css */

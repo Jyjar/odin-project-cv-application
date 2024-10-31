@@ -1,0 +1,92 @@
+.resume {
+    background-color: white;
+    width: 100%;
+    max-width: 800px;
+
+}
+
+.general-info-container {
+    background-color: #0c4b6e;
+    width: 100%;
+    color: white;
+    font-style: normal;
+    text-align: center;
+    padding: 20px 36px 0px 36px;
+    margin-bottom: 24px;
+}
+
+.general-info-container > h2 {
+    font-size: 30px;
+}
+
+.general-info-h {
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.general-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 32px;
+}
+
+.general-info > h3 {
+    background-color: #0c4b6e;
+    font-size: 14px;
+}
+
+.education-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 50px;
+}
+
+h3 {
+    background-color: rgb(243, 244, 246);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.education-container > h3,
+.experience-container > h3 {
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.experience {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.experience p {
+    font-size: 0.95em;
+}
+
+/* Optional: Additional styling for specific elements */
+.experience p:first-child {
+    font-weight: bold; /* Company Name */
+}
+
+.experience p:nth-child(2) {
+    font-style: italic; /* Position Title */
+}
+
+.experience p:nth-child(6),
+.experience p:last-child {
+    grid-column: 1 / -1; /* Location and Description span full width */
+    margin-top: 5px;
+}

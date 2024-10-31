@@ -1,6 +1,42 @@
+body {
+    background-color: rgb(243, 244, 246);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    margin: 0px;
+    padding: 32px;
+
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    padding: 3px 25px 15px 15px;
+    border-radius: 10px;
+    min-width: 344px;
+    padding: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.form-containers {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
